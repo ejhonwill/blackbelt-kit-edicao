@@ -1,0 +1,17 @@
+{
+  "_comentario": "Copie para a pasta de trabalho (WORK) como job.json e preencha. Bodies = um por AD.",
+  "job": "<caminho da pasta da demanda no Drive, ex.: .../Arquivo de Edição /26. Biz Opp/<Produto>/OT/[DDMMYY][OT] NNN_XX [Produto] - Ads [Squad]>",
+  "produto": "Kings Code",
+  "seq_sufixo": " - BODY [Kings Code]",
+  "entrega": "[021026][OT] 215_MV {AD} [Kings Code] [Squad].mp4",
+  "overlay_versao": "v02",
+  "bodies": {
+    "B01": {"voz": "ogwqBH5bbF03DSbNiRNN", "voz_nome": "Savvy",   "avatar": "B01_v01", "expressividade": "medium", "trilha": "Documentary.mp3"},
+    "B02": {"voz": "iP95p4xoKVk53GoZ742B", "voz_nome": "Chris",   "avatar": "B02_v01", "expressividade": "medium", "trilha": "Blind Memories - Cheel.mp3"},
+    "B03": {"voz": "EXAVITQu4vr4xnSDxMaL", "voz_nome": "Sarah",   "avatar": "B03_v01", "expressividade": "medium", "trilha": "2.Inspiring Cellos_mp3.mp3"},
+    "B04": {"voz": "a4CnuaYbALRvW39mDitg", "voz_nome": "Dan",     "avatar": "B04_v01", "expressividade": "medium", "trilha": "Monks.mp3"},
+    "B05": {"voz": "FGY2WhTYpPnrIDTdsKH5", "voz_nome": "Laura",   "avatar": "B05_v01", "expressividade": "high",   "trilha": "Blind Memories - Cheel.mp3"},
+    "B06": {"voz": "cgSgspJ2msm6clMCkdW9", "voz_nome": "Jessica", "avatar": "B06_v02", "expressividade": "medium", "trilha": "2.Inspiring Cellos_mp3.mp3"},
+    "B07": {"voz": "XrExE9yKIg1WjnnlVkGX", "voz_nome": "Matilda", "avatar": "B07_v02", "expressividade": "medium", "trilha": "Monks.mp3"}
+  }
+}

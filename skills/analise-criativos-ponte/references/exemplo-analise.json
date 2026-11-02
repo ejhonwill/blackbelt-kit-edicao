@@ -1,0 +1,60 @@
+[
+  {
+    "name": "AD10_H1",
+    "badge": "AD10 H1",
+    "produto": "Sonnus — gummies naturais p/ dormir (nutra EN/US)",
+    "one_line": "Criadora loira ~50a, filmada em casa (cozinha/quarto); b-roll de copo de leite com melatonina, dropper roxo 25mg, frasco Sonnus azul com lua, laudos de exame e selfie de espelho na balança ('9 pounds').",
+    "resumo_edicao": "Talking-head no ângulo **'melatonina de farmácia vicia e não conserta — Sonnus ataca a causa-raiz'**. Alterna a criadora falando com **inserts de produto** (copo de leite/melatonina, dropper roxo 25mg, frasco Sonnus azul com lua), **b-roll noturno** (relógio marcando 3:00, cenas dela rolando na cama e depois dormindo tranquila) e **provas** (cards '0 CHEMICALS' e 'IT HAS NO SIDE EFFECTS', laudos 'Modern Diagnostic Lab' com linhas destacadas, selfie de espelho 'HAD LOST 9 POUNDS'). Fecha com **apelo nativo** ('nunca postei um vídeo mostrando meu rosto') + menção a promoção do dia e CTA no botão Learn More.",
+    "transcricao": "It is impossible to take this natural melatonin before going to sleep and still wake up at 3 a.m. ... They are called Sonnus. ... This is 20x better than melatonin. ... I heard they are running a promotion today, so it is the best time for you to try them too.",
+    "atencao": [
+      {"sev": "orange", "texto": "**Duração 2:08** (>120s) — longo pra tráfego frio; testar cutdown de 45–60s."},
+      {"sev": "orange", "texto": "**Claims de saúde fortes:** 'perdi 9 lb de gordura', 'colesterol baixou', 'médico elogiou exames', '20x melhor que melatonina' — exigem base/disclaimer (compliance nutra)."},
+      {"sev": "orange", "texto": "**Linguagem anti-farmácia:** '0 químicos', 'melatonina de farmácia vicia' — pode disparar revisão de anúncio de saúde."},
+      {"sev": "yellow", "texto": "**Mecanismo afirmado, não traduzido:** '4 ingredientes da natureza' sem nomear nenhum (letra T)."},
+      {"sev": "yellow", "texto": "**Bug de locução/marca:** a fala soa 'they are called saunas' — provável erro de pronúncia de 'Sonnus'. Conferir no áudio."},
+      {"sev": "yellow", "texto": "**OCR não confiável:** legenda karaokê confunde a extração — conferir typo no olho, não pelo texto detectado."},
+      {"sev": "plain", "texto": "Mesma criadora e roteiro-base dos demais ADs Sonnus da série (variam pelo hook). Comparar hooks ao rodar AD01–AD09."}
+    ],
+    "ponte": {
+      "O": {"nota": 4, "veredito": "Dor cirúrgica ('acordar às 3h'), cheira a minerado — falta rastrear origem",
+            "pontos": [
+              {"tipo": "good", "txt": "Dor sensorial e específica (3h, café, sem energia pros netos)"},
+              {"tipo": "good", "txt": "Enquadramento nativo ('nunca mostrei meu rosto, seria egoísta guardar')"},
+              {"tipo": "bad", "txt": "Origem dos 3 ativos não rastreada — swipe ou orgânico próprio?"}
+            ]},
+      "P": {"nota": 4, "veredito": "Espinha completa; CTA morno e final arrastado",
+            "pontos": [
+              {"tipo": "good", "txt": "Dor→promessa→mecanismo→prova completos; pilha de prova pesada"},
+              {"tipo": "bad", "txt": "CTA cita promoção de passagem, sem urgência/garantia explícita"},
+              {"tipo": "bad", "txt": "Últimos ~20-30s perdem ritmo"}
+            ]},
+      "T": {"nota": 3, "veredito": "Ângulo ótimo (melatonina=vilão), mas afirma o mecanismo em vez de traduzir",
+            "pontos": [
+              {"tipo": "good", "txt": "Transforma a categoria (melatonina) no vilão: vicia, cria tolerância"},
+              {"tipo": "bad", "txt": "'4 ingredientes da natureza' sem nomear um nem explicar como age"}
+            ]},
+      "N": {"nota": 4, "veredito": "UGC crível; inserts puxam pro 'cara de anúncio'",
+            "pontos": [
+              {"tipo": "good", "txt": "Casa real, câmera na mão, rosto consistente"},
+              {"tipo": "bad", "txt": "Beauty shots + laudos + legendas grandes empurram pro 'produzido'"}
+            ]},
+      "E": {"nota": 2, "veredito": "É 1 variação solta, sem matriz de teste montada",
+            "pontos": [
+              {"tipo": "bad", "txt": "Nenhuma variável isolada — não dá pra saber o que puxa resultado"}
+            ]},
+      "global": 3.4,
+      "acoes": [
+        "**CTA/oferta** — reescrever com oferta + garantia + urgência (maior vazamento, menor esforço)",
+        "**Traduzir mecanismo** — nomear 1 ingrediente + 'por que funciona'",
+        "**Origem do O** — rastrear os 3 ativos pra gerar próximas variações com intenção"
+      ],
+      "matriz": [
+        {"eixo": "Hook", "de": "O", "testar": "H2 descoberta pela filha · H3 choque do exame médico"},
+        {"eixo": "Ângulo do mecanismo", "de": "T", "testar": "'sem vício' · 'recalibra relógio interno (ingrediente nomeado)'"},
+        {"eixo": "Creator/formato", "de": "N", "testar": "outro perfil demográfico · versão com avatar"},
+        {"eixo": "CTA/oferta", "de": "P", "testar": "+ desconto · + garantia · + urgência de estoque"},
+        {"eixo": "Duração", "de": "P/N", "testar": "corte de 45-60s começando no hook"}
+      ]
+    }
+  }
+]
